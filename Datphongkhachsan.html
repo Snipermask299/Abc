@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="Styles/Dinhdang.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="khung">
+<div class="Banner">
+	<img src="Images/DALL·E 2024-10-26 22.12.02 - A clean and modern logo design featuring the letters 'TL' in a minimalist, elegant font. The background is simple, in a light gradient or solid color,.webp" width="90px"><br>
+
+	</div>
+<div class="Chu">
+<ul>
+	<select class="Chonsao" name="chonsao">
+	<option value="Sao1">1-2 sao</option>
+	<option value="Sao2">2-3 sao</option>
+	<option value="Sao3">3-4 sao</option>
+	<option value="Sao4">4-5 sao</option>
+	</select>
+	<li><a class="Menu" href="#">Menu</a></li>
+	<li class="DK"><a href="#">Đăng ký</a></li>
+	<li class="DK"><a href="#">Đăng nhập</a></li>
+	<li class="Timkiem"><input type="Text" id "textfield" placeholder="Tìm kiếm"></li>
+</ul>
+	</div> 
+<div class="Chu2">
+	<ul>
+		<li><a class="Trangchu">Trang chủ</a> <a class="Danhsach"> > Danh sách khách sạn</a></li>
+		</ul><br>
+
+	</div>
+	<div class="card1">
+        <img src="Images/HoangHoaTham.jpg" width="250px" height="250"/>
+    <div class="Hotel1">
+        <h3>TL Hoàng Hoa Thám</h3>
+        <p><i class="Diachi"></i>Địa chỉ: 55/2 Hoàng Hoa Thám</p><br>
+
+        <p><i class="SDT"></i>SĐT: 0954126715</p><br>
+
+        <p><i class="Menu"></i>Infor: Nằm ở Vũng Tàu, cách Biển chưa đến 1km, 55/2 Hoàng Hoa Thám cung cấp chỗ nghỉ có sân hiên, quầy bar và Wi-Fi miễn phí.</p>
+    </div>
+</div>
+	</div>
+	<button id="chatbot-toggle-btn">Tư vấn</button>
+    <div class="chatbot-popup" id="chatbot-popup">
+
+      <div class="chat-header">
+        <span>
+          <a href="https://www.thecodinghubs.com/" target="_blank"
+            >KẾT NỐI</a
+          >
+        </span>
+        <button id="close-btn">&times;</button>
+      </div>
+
+      <div class="chat-box" id="chat-box">
+        <div id="message-section">
+          <div id="bot-box">
+            <span id="bot-response">Xin chào, tôi có thể giúp gì cho bạn</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat-input">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Gửi tin nhắn..."
+        />
+        <button id="send-btn">Gửi</button>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <a href="https://www.thecodinghubs.com/" target="_blank"></a>
+    </div>
+    <script src="Scripts/Taitrang.js"></script>
+</body>
+</html>
